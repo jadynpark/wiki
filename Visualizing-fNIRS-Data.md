@@ -30,7 +30,7 @@ The function uses MNI coordinates of anatomical landmarks to compute a transform
 <img src="https://github.com/ycleong/MotivationCognitionLab/blob/main/Images/fNIRS_viz_MNIcoords.png" width="600">
 </p>
 
-These coordinates are from Shannon Burns, who also took it from a probablistic conversion atlas. These coordinates can be found [here](https://github.com/jadynpark/wiki/tree/main/code/AP1005_anterior.xlsx).  
+These coordinates are from Dr. Shannon Burns, who also took it from a probablistic conversion atlas. These coordinates can be found [here](https://github.com/jadynpark/wiki/tree/main/code/AP1005_anterior.xlsx).  
 
 (2) The script assumes that the rows of the `digpts.txt` file are sorted in a particular way. Typically, you will find that the first 5 rows correspond to the landmarks, followed by sources and detectors. If your `digpts.txt` file is sorted differently, you'll need to update the script. In particular:  
 
