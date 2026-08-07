@@ -17,8 +17,8 @@ This is a function that transforms the native coordinates into MNI space. It tak
 
 There are several versions of this script, and it's possible that the one you have is an outdated one.  
 
-For posterity, the old (original) version of the script `getMNIcoords.m` can be found [here](https://github.com/ycleong/MotivationCognitionLab/blob/main/Code/fNIRS/getMNIcoords.m)  
-The updated version of the script `getMNIcoords_v2.m` can be found [here](https://github.com/ycleong/MotivationCognitionLab/blob/main/Code/fNIRS/getMNIcoords_v2.m). 
+For posterity, the old (original) version of the script `getMNIcoords.m` can be found [here](https://github.com/jadynpark/wiki/code/getMNIcoords.m)  
+The updated version of the script `getMNIcoords_v2.m` can be found [here](https://github.com/jadynpark/wiki/code/getMNIcoords_v2.m). 
 
 **Read below and update yours accordingly**  
 
@@ -30,7 +30,7 @@ The function uses MNI coordinates of anatomical landmarks to compute a transform
 <img src="https://github.com/ycleong/MotivationCognitionLab/blob/main/Images/fNIRS_viz_MNIcoords.png" width="600">
 </p>
 
-These coordinates are from Shannon Burns, who also took it from a probablistic conversion atlas. These coordinates can be found [here](https://github.com/ycleong/MotivationCognitionLab/blob/main/Code/fNIRS/AP1005_anterior.xlsx).  
+These coordinates are from Shannon Burns, who also took it from a probablistic conversion atlas. These coordinates can be found [here](https://github.com/jadynpark/wiki/code/AP1005_anterior.xlsx).  
 
 (2) The script assumes that the rows of the `digpts.txt` file are sorted in a particular way. Typically, you will find that the first 5 rows correspond to the landmarks, followed by sources and detectors. If your `digpts.txt` file is sorted differently, you'll need to update the script. In particular:  
 
@@ -42,7 +42,7 @@ These coordinates are from Shannon Burns, who also took it from a probablistic c
 <img src="https://github.com/ycleong/MotivationCognitionLab/blob/main/Images/fNIRS_viz_SD.png" width="600">
 </p>
 
-(3) An example of MNI coordinates from a 20-channel prefrontal montage (8 sources, 7 detectors). .mat file found [here](https://github.com/ycleong/MotivationCognitionLab/blob/main/Code/fNIRS/MNI_coord.mat)
+(3) An example of MNI coordinates from a 20-channel prefrontal montage (8 sources, 7 detectors). .mat file found [here](https://github.com/jadynpark/wiki/code/MNI_coord.mat)
 
 <p align="center">
 <img src="https://github.com/ycleong/MotivationCognitionLab/blob/main/Images/fNIRS_viz_tbl.png" width="250">
